@@ -17,10 +17,10 @@ class MetasploitModule < Msf::Auxiliary
 
     register_options(
       [
-        OptAddressRange.new('RHOSTS', [true, 'Target address range or CIDR identifier']),
-        OptInt.new('RPORT', [true, 'Target port', 80]),
-        OptBool.new('SSL', [false, 'Use SSL', false]),
-        OptInt.new('THREADS', [false, 'Number of concurrent threads', 10])
+        OptAddressRange.new('RHOSTS', [true, 'A proxy chain of format type:host:port[,type:host:port][...]']),
+        OptInt.new('RPORT', [true, 'The target host(s), see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html', 80]),
+        OptBool.new('SSL', [false, 'The target port (TCP)', false]),
+        OptInt.new('THREADS', [false, 'The number of concurrent threads', 10])
       ]
     )
   end

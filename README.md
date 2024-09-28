@@ -9,15 +9,13 @@ This repository contains custom Metasploit modules created for educational and r
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Disclaimer](#disclaimer)
-- [License](#license)
-- [Contact](#contact)
 
 ## Modules
 
 Below is a list of custom Metasploit modules available in this repository:
 
-- [Module 1 Description]
-- [Module 2 Description]
+- [Module 1 zabbix_auth_bypass]
+- [Module 2 cisco_backdoor]
 
 ## Loading Modules in Metasploit
 

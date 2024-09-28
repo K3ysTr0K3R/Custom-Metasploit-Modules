@@ -25,7 +25,7 @@ Below is a list of custom Metasploit modules available in this repository:
 
 To load these modules in Metasploit:
 
-1. Clone this repository: `git clone `
+1. Clone this repository: `git clone https://github.com/K3ysTr0K3R/Custom-Metasploit-Modules.git`
 2. Navigate to the Metasploit framework directory: `cd /path/to/metasploit-framework`
 3. Load the module: `msfconsole` followed by `loadpath /path/to/custom-metasploit-modules`
 4. Use the module: `use module_name` (replace `module_name` with the actual module name)

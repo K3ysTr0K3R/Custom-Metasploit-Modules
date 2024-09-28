@@ -16,6 +16,10 @@ Below is a list of custom Metasploit modules available in this repository:
 
 - [Module 1 zabbix_auth_bypass]
 - [Module 2 cisco_backdoor]
+- [Module 3 hikvision_detect]
+- [Module 4 hikvision_auth_bypass]
+- [Module 5 directory_traversal]
+- [Module 6 explodingcan]
 
 ## Loading Modules in Metasploit
 
